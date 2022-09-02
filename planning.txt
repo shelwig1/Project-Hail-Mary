@@ -1,0 +1,46 @@
+Voice recognition - 
+
+musical notes strung together
+id musical notes, look them up in a table, show words on screen as we are hearing the notes
+listens and prompts when a new word comes up
+
+So what do we actually need to do here - 
+
+-listen and identify musical notes
+	-receive audio input
+
+-look up combinations of musical notes in a table
+	-if existing, display associated meaning
+	-if does not exist, ask for meaning - can leave without meaning if we'd like
+
+
+how the fuck does SQL work
+
+
+
+Start
+-listen to audio
+
+
+
+-print out musical notes as we play them
+
+-put musical strings into a database with a meaning attached to them
+
+-actively translate music back into english as we play audio
+
+
+Research:
+https://medium.com/@ianvonseggern/note-recognition-in-python-c2020d0dae24
+
+https://towardsdatascience.com/music-in-python-2f054deb41f4
+
+https://stackoverflow.com/questions/53308674/audio-frequencies-in-python
+
+
+Listen to audio and display the notes that are playing
+	-can we do this in real time?
+
+-Have the microphone listening
+-ability to interpret audio as strings of frequencies
+-ability to interpret frequencies as musical notes
